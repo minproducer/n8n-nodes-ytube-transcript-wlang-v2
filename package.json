@@ -1,19 +1,28 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-nodes-ytube-transcript-wlang-v2",
   "version": "0.1.0",
-  "description": "",
+  "description": "n8n node for fetching YouTube transcripts with language support and authentication using yt-dlp",
   "keywords": [
-    "n8n-community-node-package"
+    "n8n-community-node-package",
+    "youtube",
+    "transcript",
+    "subtitles",
+    "yt-dlp",
+    "video",
+    "captions"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/yourusername/n8n-nodes-ytube-transcript-wlang-v2#readme",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Your Name",
+    "email": "your.email@example.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/yourusername/n8n-nodes-ytube-transcript-wlang-v2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/n8n-nodes-ytube-transcript-wlang-v2/issues"
   },
   "engines": {
     "node": ">=20.15"
@@ -22,31 +31,33 @@
   "scripts": {
     "build": "npx rimraf dist && tsc && gulp build:icons",
     "dev": "tsc --watch",
-    "format": "prettier nodes credentials --write",
-    "lint": "eslint nodes credentials package.json",
-    "lintfix": "eslint nodes credentials package.json --fix",
-    "prepublishOnly": "npm run build && npm run lint -c .eslintrc.prepublish.js nodes credentials package.json"
+    "format": "prettier nodes --write",
+    "lint": "eslint nodes package.json",
+    "lintfix": "eslint nodes package.json --fix",
+    "prepublishOnly": "npm run build && npm run lint -c .eslintrc.prepublish.js nodes package.json",
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "LICENSE"
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
-    "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
-    ],
+    "credentials": [],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/YtubeTranscriptWlangV2/YtubeTranscriptWlangV2.node.js"
     ]
   },
   "devDependencies": {
+    "@types/node": "^22.0.0",
     "@typescript-eslint/parser": "~8.32.0",
     "eslint": "^8.57.0",
     "eslint-plugin-n8n-nodes-base": "^1.16.3",
     "gulp": "^5.0.0",
     "prettier": "^3.5.3",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.5.0",
     "typescript": "^5.8.2"
   },
   "peerDependencies": {
