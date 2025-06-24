@@ -1,9 +1,9 @@
 # n8n-nodes-ytube-transcript-wlang
 
-[![npm version](https://badge.fury.io/js/@minproducer%2Fn8n-nodes-ytube-transcript-wlang.svg)](https://www.npmjs.com/package/@minproducer/n8n-nodes-ytube-transcript-wlang)
+[![npm version](https://badge.fury.io/js/@minproducer%2Fn8n-nodes-ytube-transcript-wlang-v2.svg)](https://www.npmjs.com/package/@minproducer/n8n-nodes-ytube-transcript-wlang-v2)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![n8n](https://img.shields.io/badge/n8n-custom%20node-orange)](https://n8n.io/)
-[![Build](https://img.shields.io/badge/status-stable-blue)](https://github.com/minproducer/n8n-nodes-ytube-transcript-wlang)
+[![Build](https://img.shields.io/badge/status-stable-blue)](https://github.com/minproducer/n8n-nodes-ytube-transcript-wlang-v2)
 
 > 🔧 A powerful n8n custom node to extract and parse YouTube subtitles using `yt-dlp`, with multi-language support and structured JSON output.
 
