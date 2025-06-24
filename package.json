@@ -12,17 +12,17 @@
     "captions"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/yourusername/n8n-nodes-ytube-transcript-wlang-v2#readme",
+  "homepage": "https://github.com/minproducer/n8n-nodes-ytube-transcript-wlang-v2#readme",
   "author": {
     "name": "Your Name",
     "email": "your.email@example.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/n8n-nodes-ytube-transcript-wlang-v2.git"
+    "url": "https://github.com/minproducer/n8n-nodes-ytube-transcript-wlang-v2.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/n8n-nodes-ytube-transcript-wlang-v2/issues"
+    "url": "https://github.com/minproducer/n8n-nodes-ytube-transcript-wlang-v2/issues"
   },
   "engines": {
     "node": ">=20.15"
