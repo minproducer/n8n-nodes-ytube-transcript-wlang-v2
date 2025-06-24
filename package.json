@@ -46,7 +46,7 @@
     "n8nNodesApiVersion": 1,
     "credentials": [],
     "nodes": [
-      "dist/nodes/YtubeTranscriptWlangV2/YtubeTranscriptWlangV2.node.js"
+      "dist/nodes/YtubeTranscriptWlangV2/YtubeTranscriptWlang.node.js"
     ]
   },
   "devDependencies": {
